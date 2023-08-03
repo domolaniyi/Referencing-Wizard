@@ -11,7 +11,7 @@ class ApiEngine:
     current_page = "start="
     fields = "field=dc:title,dc:creator,citedby-count,prism:coverDate,prism:doi&"
     supressNavLinks = "suppressNavLinks=true&"
-    apiKey = "apiKey=15749d4f4519a5a53b5417bd01e5428b"
+    apiKey = "apiKey="
 
     def basic_query(self, query, page):
         articles_list = []
